@@ -29,4 +29,13 @@ set -o vi
 PS1=" \e[0;36m\u@\h \w> \e[m"
 ```
 
+## Cygwin
+
+### Explorer windows here function
+
+```
+exp() {
+  /cygdrive/c/Windows/explorer.exe /e,`cygpath -w "$PWD"`
+}
+```
 
