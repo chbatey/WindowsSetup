@@ -1,4 +1,4 @@
-# Vim mode with indicator
+## Vim mode with indicator
 
 Required bash 4.4
 
